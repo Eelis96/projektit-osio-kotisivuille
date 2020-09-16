@@ -16,6 +16,10 @@ if (isset($_SESSION['logged_in'])) {
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="btn btn-outline-info float-right" onclick="myFunction()">Palaa Etusivulle</button>
+    </nav>
+
     <div class="jumbotron">
     <h1>Kirjaudu Sisään</h1>
     </div>
@@ -45,6 +49,15 @@ if (isset($_SESSION['logged_in'])) {
             </div>
             <input class="btn btn-outline-primary" type="submit" value="Kirjaudu Sisään">
         </form>
-    </div>   
+    </div>  
+
+    <script>
+        function myFunction(){
+            window.location.replace("index.php");
+        }
+    
+    
+    
+    </script> 
 </body>
 </html>
