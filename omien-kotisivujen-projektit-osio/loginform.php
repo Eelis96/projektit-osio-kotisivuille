@@ -17,7 +17,7 @@ if (isset($_SESSION['logged_in'])) {
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <button class="btn btn-outline-info float-right" onclick="myFunction()">Palaa Etusivulle</button>
+        <button class="btn btn-outline-info" onclick="myFunction()">Palaa Etusivulle</button>
     </nav>
 
     <div class="jumbotron">
