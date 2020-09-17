@@ -74,10 +74,10 @@ session_start();
                         <label for="projektikuvaus">Projektin Kuvaus:</label>
                         <input type="text" id="projektikuvaus" name="projektikuvaus"><br>
 
-                        <label for="projektikuvaus">Projektin Tekijät:</label>
+                        <label for="projektitekijat">Projektin Tekijät:</label>
                         <input type="text" id="projektitekijat" name="projektitekijat"><br>
 
-                        <label for="projektinimi">Projektin Valmistumispäivämäärä:</label>
+                        <label for="projektipaivamaara">Projektin Valmistumispäivämäärä:</label>
                         <input type="date" id="projektipaivamaara" name="projektipaivamaara"><br>
                         <input type="submit" name="submit" value="Tallenna" class="btn btn-primary">
                 </div>';
